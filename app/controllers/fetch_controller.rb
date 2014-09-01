@@ -1,10 +1,5 @@
 class FetchController < ApplicationController
 	def index
-		@name = "Hello"
+  		@inquiry = "Hello"
 	end
-
-	# def finder
-	# 	@name = Student.find(all)
-	# end	
-
 end
