@@ -1,0 +1,6 @@
+ <ul>
+    <% @students.each do |student| %>
+  <li><%= link_to student.id, 
+    :action => 'show', :name => student.first_name  %></li>
+  <% end %>
+  </ul>
